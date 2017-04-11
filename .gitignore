@@ -1,3 +1,6 @@
 .idea
 /avalon_test/settings_local.py
 /avalon/migrations/
+/polygon.py
+avalon/__pycache__/
+avalon_test/__pycache__/

@@ -110,6 +110,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+AUTH_USER_MODEL = 'avalon.RegisteredUser'
+
 try:
     from avalon_test.settings_local import *
 except ImportError:
